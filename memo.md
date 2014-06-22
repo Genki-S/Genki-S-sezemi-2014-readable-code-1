@@ -25,3 +25,4 @@
 ## spec4
 
 - first shot: `each_line do |line|`, second shot: `each_line do |recipe_title|` because I expect recipe title there
+- does '...' sufficient to indicate many more lines can follow?
