@@ -32,3 +32,7 @@
 - first shot: `split(/\r?\n/).each_with_index`, but I thought it's idiomatic
 - second shot: `each_line.with_index` (I found `Enumerator#with_index`), readable.
 - index is 0 origin because it's natural to programmers
+
+## spec6
+- change index to 1 origin because it's natural as the interface ('show me 0th recipe' ...?)
+- I am not sure if it's readable to write `with_index(1)` makes index 1 origin because it's on doc, but it reduces readers' time to understand anyway
