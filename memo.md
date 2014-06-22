@@ -26,3 +26,9 @@
 
 - first shot: `each_line do |line|`, second shot: `each_line do |recipe_title|` because I expect recipe title there
 - does '...' sufficient to indicate many more lines can follow?
+
+## spec5
+
+- first shot: `split(/\r?\n/).each_with_index`, but I thought it's idiomatic
+- second shot: `each_line.with_index` (I found `Enumerator#with_index`), readable.
+- index is 0 origin because it's natural to programmers
