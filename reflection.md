@@ -20,3 +20,7 @@ https://docs.google.com/spreadsheets/d/1LFfGZjYXtigaWrf8I1FsibJ9U8KZT-LWI64VWAEd
 - コード: https://github.com/Genki-S/tondol-sezemi-2014-readable-code-1/blob/master/cookpad.rb#L55
 - 良かった点: Array#shift(n) を使って処理がスッキリしている
 - 理由: 長くなりそうな処理を既存のメソッドで短くまとめている
+
+### レシピデータが適切なデータフォーマットで外部化されている
+- コード：https://github.com/alice345/alice345-sezemi-2014-readable-code-1/commit/4caed869a5f6a13971deeac64810f8e50c7bf214
+- よく親しまれているデータフォーマットなので（データが）リーダブル
