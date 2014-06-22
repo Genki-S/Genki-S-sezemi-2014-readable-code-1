@@ -18,5 +18,5 @@ https://docs.google.com/spreadsheets/d/1LFfGZjYXtigaWrf8I1FsibJ9U8KZT-LWI64VWAEd
 
 ### 便利メソッドの使用
 - コード: https://github.com/Genki-S/tondol-sezemi-2014-readable-code-1/blob/master/cookpad.rb#L55
-- 良かった点: rray#shift(n) を使って処理がスッキリしている
+- 良かった点: Array#shift(n) を使って処理がスッキリしている
 - 理由: 長くなりそうな処理を既存のメソッドで短くまとめている
