@@ -2,7 +2,7 @@
 
 https://docs.google.com/spreadsheets/d/1LFfGZjYXtigaWrf8I1FsibJ9U8KZT-LWI64VWAEdq5U/edit
 
-## 3 Most Readable Codes
+## 4 Most Readable Codes
 
 ### 適切なエラーメッセージ
 - コード: https://github.com/tondol/tondol-sezemi-2014-readable-code-1/blob/master/cookpad.rb#L59
