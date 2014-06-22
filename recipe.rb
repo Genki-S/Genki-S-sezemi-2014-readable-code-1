@@ -1,2 +1,1 @@
-# Just stubbing with sample recipe title
-puts 'オムライス'
+puts File.read('recipe-data.txt')

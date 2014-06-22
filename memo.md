@@ -13,3 +13,8 @@
   - but I didn't want to bother splitting the app into separate dir
 - it's always good to care about versions
 - where to set CWD might not be obvious
+
+## spec3
+
+- it's not stubbing anymore, so remove the comment
+- I thought `RECIPE_DATA_FILE = 'recipe-data.txt'` would be nice, but concluded it's redundant in this step
