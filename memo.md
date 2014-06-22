@@ -21,3 +21,7 @@
 - it's always nice to add examples
   - the example and the real content differ so that users can know anything can be used as a recipe title
 - I wanted to use yaml format, but it's redundant in this step (MVP)
+
+## spec4
+
+- first shot: `each_line do |line|`, second shot: `each_line do |recipe_title|` because I expect recipe title there

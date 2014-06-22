@@ -1,1 +1,3 @@
-puts File.read('recipe-data.txt')
+File.read('recipe-data.txt').each_line do |recipe_title|
+  puts recipe_title
+end
