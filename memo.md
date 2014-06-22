@@ -42,3 +42,5 @@
   - got 'constant already specified' warning
   - but I wanted it to be a constant (I don't like it to be changed)
 - third shot: long but readable (?).
+
+- `SPECIFIED_RECIPE_ID && id != SPECIFIED_RECIPE_ID` is not easy to understand the purpose
