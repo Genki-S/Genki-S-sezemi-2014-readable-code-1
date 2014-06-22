@@ -36,3 +36,9 @@
 ## spec6
 - change index to 1 origin because it's natural as the interface ('show me 0th recipe' ...?)
 - I am not sure if it's readable to write `with_index(1)` makes index 1 origin because it's on doc, but it reduces readers' time to understand anyway
+
+- first shot: `SPECIFIED_RECIPE_ID = ARGV[0].nil? ? nil : ARGV[0].to_i`, I thought it sucks
+- second shot: set default value first, and then set ARGV value if it exist
+  - got 'constant already specified' warning
+  - but I wanted it to be a constant (I don't like it to be changed)
+- third shot: long but readable (?).
